@@ -14,3 +14,4 @@ They way  that data is modeled or schema = data model
 Update - delete - insertion 
 Update : to make this change you have to change one by one 
  
+it is incosistencay to change one by one data. 
