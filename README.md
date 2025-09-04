@@ -25,3 +25,20 @@ data inregrity : how to design the data and our database called date model or sc
 look at the problem first, what kind of things you have to store the data about . 
 ENtitiy : some thing that we store the data about and has attribute that describe the entity. 
 =========+
+describe the problem: 
+the entity students 
+now arrtubutes : name ID email grades - courses- 
+second entity : course - and arrtibutes; Name - studetns - course number - max numbers - professors
+describe the type : studetn entity - 
+================
+entity : relation ship between eachother , they are connected to eachother- here we use ERD modeling  - 
+how many courses can students have : many 
+How many students can get course :
+So the relation ship would be N:N many to many 
+
+
+
+
+
+
+
