@@ -44,14 +44,22 @@ Convert the data to table form - we do use tables - Eeach entity has a Table ass
 class activity : 
 Artist : 
 Album :songsname - artist - year - Genre - Type  - 
-Song :
+Song : albume name 
+Album name : name artist year 
 Users :
 tracklist :
 
 =================
-M:M are not allowed because they keep giving us multi arrtibutes 
+M:M are not allowed in designing our models : because they keep giving us multi arrtibutes 
 
-
+================
+ERD : many to many we are not allow to have it in one table so seprate the tables ; 
+the question is how many to how many ? 
+Album instanct song 
+song/ album instance : two arrtibutes : albume name - 
+Instance show the relation sheip between tow tables which you call it song/ablum instances 
+======
+Unique Identifire : to address our values in other data.
 
 
 
