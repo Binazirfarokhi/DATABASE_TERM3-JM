@@ -40,7 +40,7 @@ now if you add another enttity called professor : name and department :
 so courses to profesros would be N:1 
 +=======================
 Desgin ERD: the confusion is where to choose entity or attributes - there are ways to simplifies the process - 
-Convert the data to table form - we do use tables - Eeach entity has a Table associate with it, and the Attributes are the Columns. 
+Convert the data to table form - we do use tables - Eeach entity has a Table associate with it, and the Attributes are the Columns.  we have a rule that mulitvalue atributes are not allowed only one value per column , so it means you need another entity to represent that it the moment to make a ew entity. 
 class activity : 
 Artist : 
 Album :songsname - artist - year - Genre - Type  - 
@@ -48,7 +48,7 @@ Song :
 Users :
 tracklist :
 
-
+=================
 
 
 
