@@ -19,3 +19,9 @@ what is the problem to delete a name in spreedsheat : you delete the name you ha
 what is the problem in deletion 
 what is insertion anomaly ; you can add a row to the speadsheet 
  
+===============================================================================
+data inregrity : how to design the data and our database called date model or schema 
+=============================================================================
+look at the problem first, what kind of things you have to store the data about . 
+ENtitiy : some thing that we store the data about and has attribute that describe the entity. 
+=========+
