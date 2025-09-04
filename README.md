@@ -15,3 +15,7 @@ Update - delete - insertion
 Update : to make this change you have to change one by one 
  
 it is incosistencay to change one by one data. 
+what is the problem to delete a name in spreedsheat : you delete the name you have to delete the enire row then you have a space in the rows. 
+what is the problem in deletion 
+what is insertion anomaly ; you can add a row to the speadsheet 
+ 
