@@ -35,6 +35,18 @@ entity : relation ship between eachother , they are connected to eachother- here
 how many courses can students have : many 
 How many students can get course :
 So the relation ship would be N:N many to many 
+==============
+now if you add another enttity called professor : name and department : 
+so courses to profesros would be N:1 
++=======================
+Desgin ERD: the confusion is where to choose entity or attributes - there are ways to simplifies the process - 
+Convert the data to table form - we do use tables - Eeach entity has a Table associate with it, and the Attributes are the Columns. 
+class activity : 
+Artist : 
+Album :songsname - artist - year - Genre - Type  - 
+Song :
+Users :
+tracklist :
 
 
 
