@@ -1,66 +1,108 @@
-# DATABASE_TERM3-JM
-What is a database ? Data persistence is important for databases. 
-Put data and store data - database must be fast and reliable 
-The difference is the data between a website in two different page 
-Databases allow us to separate the data, fetch different data from different parts of your data resource.
+Introduction to Databases (SQL Focus)
+What is a Database?
 
-Purpose of database : 
-Why do we need to use databases ? 
-Store data in files 
-Store data in the spreadsheet maybe excel 
-So problem is about the speed 
-Data integrity : 
-They way  that data is modeled or schema = data model 
-Update - delete - insertion 
-Update : to make this change you have to change one by one 
- 
-it is incosistencay to change one by one data. 
-what is the problem to delete a name in spreedsheat : you delete the name you have to delete the enire row then you have a space in the rows. 
-what is the problem in deletion 
-what is insertion anomaly ; you can add a row to the speadsheet 
- 
-===============================================================================
-data inregrity : how to design the data and our database called date model or schema 
-=============================================================================
-look at the problem first, what kind of things you have to store the data about . 
-ENtitiy : some thing that we store the data about and has attribute that describe the entity. 
-=========+
-describe the problem: 
-the entity students 
-now arrtubutes : name ID email grades - courses- 
-second entity : course - and arrtibutes; Name - studetns - course number - max numbers - professors
-describe the type : studetn entity - 
-================
-entity : relation ship between eachother , they are connected to eachother- here we use ERD modeling  - 
-how many courses can students have : many 
-How many students can get course :
-So the relation ship would be N:N many to many 
-==============
-now if you add another enttity called professor : name and department : 
-so courses to profesros would be N:1 
-+=======================
-Desgin ERD: the confusion is where to choose entity or attributes - there are ways to simplifies the process - 
-Convert the data to table form - we do use tables - Eeach entity has a Table associate with it, and the Attributes are the Columns.  we have a rule that mulitvalue atributes are not allowed only one value per column , so it means you need another entity to represent that it the moment to make a ew entity. 
-class activity : 
-Artist : 
-Album :songsname - artist - year - Genre - Type  - 
-Song : albume name 
-Album name : name artist year 
-Users :
-tracklist :
+A database is an organized collection of data that allows us to store, manage, and retrieve information efficiently. Unlike storing data in files or spreadsheets, databases provide:
 
-=================
-M:M are not allowed in designing our models : because they keep giving us multi arrtibutes 
+Persistence: Data remains available over time.
 
-================
-ERD : many to many we are not allow to have it in one table so seprate the tables ; 
-the question is how many to how many ? 
-Album instanct song 
-song/ album instance : two arrtibutes : albume name - 
-Instance show the relation sheip between tow tables which you call it song/ablum instances 
-======
-Unique Identifire : to address our values in other data.
+Speed & reliability: Optimized for fast queries and secure access.
+
+Consistency: Ensures data is accurate and does not conflict.
+
+Example:
+The difference between a simple website with static pages and a database-driven website is that databases allow you to separate data from presentation, and fetch different pieces of information dynamically.
+
+Why Do We Need Databases?
+
+Without databases, data is usually stored in:
+
+Files (text, CSV, etc.)
+
+Spreadsheets (e.g., Excel)
+
+Problems with spreadsheets or raw files:
+
+Update anomaly: If a student’s email changes, you must update it in multiple places → risk of inconsistency.
+
+Deletion anomaly: If you delete a student’s name, you may lose their entire row (including unrelated info like courses or grades).
+
+Insertion anomaly: Adding new data (e.g., a new course) may require incomplete or duplicate rows.
+
+Databases solve these problems by enforcing data integrity.
+
+Data Integrity & Data Models
+
+Data integrity depends on how we design the schema (data model).
+
+A schema defines how data is structured (tables, columns, relationships).
+
+Entities are represented as tables, and their properties are represented as columns (attributes).
+
+Good design avoids redundancy, inconsistency, and anomalies.
+
+Entities & Attributes
+
+An Entity is something we store data about.
+An Attribute is a property of that entity.
+
+Example 1: Students & Courses
+
+Student entity: StudentID, Name, Email, Grades
+
+Course entity: CourseID, CourseName, MaxEnrollment, Professor
+
+Relationships:
+
+Student ↔ Course: Many-to-Many (N:N) – one student can take many courses, and one course can have many students.
+
+Course ↔ Professor: Many-to-One (N:1) – many courses can be taught by one professor.
+
+ERD (Entity-Relationship Diagram)
+
+We use ERDs to visualize entities and their relationships.
+
+⚠️ Rule: Multi-valued attributes are not allowed.
+If an attribute has multiple values (e.g., multiple songs in an album), create a separate entity.
+
+Example 2: Music Database
+
+Artist: ArtistID, Name, Genre, Type
+
+Album: AlbumID, Title, Year, ArtistID
+
+Song: SongID, Title, AlbumID
+
+User: UserID, Name, Tracklist
+
+Relationships:
+
+Album ↔ Song = One-to-Many
+
+Song ↔ User (playlist) = Many-to-Many → must use a junction table (e.g., UserSong with UserID + SongID).
+
+Many-to-Many Problem
+
+M:N relationships cannot exist directly in relational models.
+
+They must be broken into two One-to-Many relationships using a junction/association table.
+
+Example:
+StudentCourse (StudentID, CourseID) → resolves the N:N between Students and Courses.
+
+Keys & Identifiers
+
+Each table must have a Primary Key (unique identifier) to ensure each row can be referenced.
+Examples:
+
+Student: StudentID
+
+Course: CourseID
+
+Song: SongID
+
+Foreign keys are used to link relationships between tables.
 
 
+ERD modeling ensures we avoid many-to-many issues and preserve data integrity.
 
-
+Would you like me to draw an ERD diagram (students-courses-professors) for you, so you can use it in your SQL database class notes?
