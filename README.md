@@ -105,4 +105,5 @@ Foreign keys are used to link relationships between tables.
 
 ERD modeling ensures we avoid many-to-many issues and preserve data integrity.
 
-Would you like me to draw an ERD diagram (students-courses-professors) for you, so you can use it in your SQL database class notes?
+------------------------------------
+Anomolies means some of the rows are empty and is empty.
