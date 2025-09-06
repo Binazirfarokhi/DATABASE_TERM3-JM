@@ -110,3 +110,6 @@ Anomolies means some of the rows are empty and is empty.
 
 ------------------------
 A UML diagram is a visual tool that uses the standardized Unified Modeling Language (UML) to represent the structure, behavior, and interaction of a system, such as a software application or a business process. UML diagrams help engineers, project managers, and other professionals understand, design, and document complex systems by breaking them down into manageable components and relationships, acting as a "blueprint" for development.UML, or Unified Modeling Language, in the context of databases, refers to the use of UML diagrams to visually represent and model the structure and relationships within a database system
+=======each record with all attributes will be  called instance. 
+whole record in a table = instance 
++=========
