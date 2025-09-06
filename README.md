@@ -116,3 +116,5 @@ whole record in a table = instance
 composite : tarkib do ta entity
 -----
 updating -repating is matters in entity.
+----
+the reason that we called it Primary key is : each instance would be uniquely identified in that table.
