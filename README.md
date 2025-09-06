@@ -113,3 +113,4 @@ A UML diagram is a visual tool that uses the standardized Unified Modeling Langu
 =======each record with all attributes will be  called instance. 
 whole record in a table = instance 
 +=========
+composite : tarkib do ta entity
