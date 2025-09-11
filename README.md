@@ -135,12 +135,24 @@ Student Register course proffessor
 -------------
 Registration attribute : student ID and Course ID - Grade =>>>> the 1:0...* 
 Once the relation in M:1 you need to put the ID of 1 to the entity of M. 
--------
+-----------------
 
 
 ordinality and cardinality = max and min relaton between each two entities. 
 Registration to COurse : 0...36 
 Profeeesor to Course = o...1 the other side :  0...*
 
------
+----------------------------------
+data has anomolies: if you update something you have to do it one bye one- 
+Normalazation: relational data modal : each table is called a relation. We can write this table in a relation notation like this :
+Orders( order_id, user_id, User_name,address, Product_name, manufacture, manufacture_email) 
+Need to find the primary key: must be unique for each row ,wither one column or a combination columns
+
+Our goals is to remove enomolies by spliting a table into multiple entities, three steps to 
+normalization is like solve a puzzle to arrange your data in a very good way and shape, 
+Steps to nirmalized a table : 
+if data is in 2 dimentional tables,
+If we have multi-value attributes.
+
+straategy : create a new table that has multiple values ,move the attribute to thetable along with the PK of the original 
 
