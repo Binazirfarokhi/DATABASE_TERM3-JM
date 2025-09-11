@@ -130,13 +130,17 @@ the reason that we called it Primary key is : each instance would be uniquely id
 M:M relation is not ideal, make a table in the between, called composite table in the middle. 
 MUlitvalue attribute will cause a problem and make the duplication of data. extra entity or table will help to break down the M:M relation
 -----------
-Student (student ID - name -email- **course** -grades) - course( course ID- **students** and Professor ID) - professor ( professor ID - Name -Department-) 
+Student (student ID - name -email- **course** -grades) - course( course ID- **students** - Professor ID) - professor ( professor ID - Name -Department-) 
 Student Register course proffessor   
 -------------
-Registration attribute : student ID and Course ID -
+Registration attribute : student ID and Course ID - Grade =>>>> the 1:0...* 
 Once the relation in M:1 you need to put the ID of 1 to the entity of M. 
+-------
 
 
+ordinality and cardinality = max and min relaton between each two entities. 
+Registration to COurse : 0...36 
+Profeeesor to Course = o...1 the other side :  0...*
 
-
+-----
 
