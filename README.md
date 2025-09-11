@@ -125,3 +125,18 @@ composite : tarkib do ta entity
 updating -repating is matters in entity.
 ----
 the reason that we called it Primary key is : each instance would be uniquely identified in that table.
+
+
+M:M relation is not ideal, make a table in the between, called composite table in the middle. 
+MUlitvalue attribute will cause a problem and make the duplication of data. extra entity or table will help to break down the M:M relation
+-----------
+Student (student ID - name -email- **course** -grades) - course( course ID- **students** and Professor ID) - professor ( professor ID - Name -Department-) 
+Student Register course proffessor   
+-------------
+Registration attribute : student ID and Course ID -
+Once the relation in M:1 you need to put the ID of 1 to the entity of M. 
+
+
+
+
+
