@@ -1,3 +1,5 @@
+
+
 Introduction to Databases (SQL Focus)
 What is a Database?
 
@@ -155,4 +157,9 @@ if data is in 2 dimentional tables,
 If we have multi-value attributes.
 
 straategy : create a new table that has multiple values ,move the attribute to thetable along with the PK of the original 
+
+
+------
+Run command in sql data base: 
+Run : sqlite3
 
