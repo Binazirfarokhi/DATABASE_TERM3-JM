@@ -1,5 +1,6 @@
 
 
+
 Introduction to Databases (SQL Focus)
 What is a Database?
 
@@ -184,4 +185,20 @@ Sqlite3
 How to open a database file ? .open onelist.db
 .database 
 How to see tables in the database ? .ta 
+
+week 3: outcome 
+Week 3: Introduction to SQL 
+Learning Outcomes
+Use the SQLite command-line interface
+Use SQLite Viewer to view databases
+Use the SQL language to query databases
+Use the SELECT statement and WHERE statement to fetch rows
+Design queries to fetch data based on specific conditions
+Create new databases and tables and insert data
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
+
+Read the slides Intro to SQL and complete the demos. Please do this before our lesson on Thursday!
+Complete this week's assignment;
+Review this week's discussion questions.
 
