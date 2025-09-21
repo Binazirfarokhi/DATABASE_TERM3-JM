@@ -139,7 +139,22 @@ Student Register course proffessor
 Registration attribute : student ID and Course ID - Grade =>>>> the 1:0...* 
 Once the relation in M:1 you need to put the ID of 1 to the entity of M. 
 -----------------
+Week 2: Normalization 
+Learning Outcomes
+Represent and use data in the relational data model
+Find primary keys for relations
+Identify functional dependencies and determinants 
+Convert data to first, second, and third normal form
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
 
+If you haven't already, please complete the tutorial on setting up GitHub Education and Codespaces, as we will begin using it next week;
+Complete the survey on using Slack
+Read the slides for this week
+Optionally, read the recommended textbook chapters
+Optionally, complete the given normalization exercises for practice
+Complete this week's assignment
+Review the discussion questions for this week.
 
 ordinality and cardinality = max and min relaton between each two entities. 
 Registration to COurse : 0...36 
