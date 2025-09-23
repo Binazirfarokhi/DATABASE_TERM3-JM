@@ -216,4 +216,20 @@ Complete the following tasks in order from top to bottom:
 Read the slides Intro to SQL and complete the demos. Please do this before our lesson on Thursday!
 Complete this week's assignment;
 Review this week's discussion questions.
+---------------------------
+Week 4: Intermediate SQL and Subqueries
+Learning Outcomes
+Make aliases for columns and tables;
+Use aggregation operations to analyze many values;
+Group values for aggregation;
+Use sub-queries for more complicated queries;
+Use temporary tables;
+Use set operations to combine result sets.
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
+
+[COMING SOON] Watch the video lesson on Intermediate Queries and Subqueries;
+Complete this week's assignment;
+Review this week's discussion questions.
+
 
