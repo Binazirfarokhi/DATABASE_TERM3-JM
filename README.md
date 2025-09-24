@@ -232,4 +232,10 @@ Complete the following tasks in order from top to bottom:
 Complete this week's assignment;
 Review this week's discussion questions.
 
+what does Aggregation mean? taking a bunch of values in our table and using some math operation to convert them into one value. 
+What does Grouping mean ? taking some rows of the table and grouping them together and aggregating within those groups.
+What is Aliases? giving different names to columns and tables.
+What is Subqueries? differnt kinda doing queries in our database. it is like using a query and use the result of this query into another query.
+What is set operation ? using more than one query and putting the result of all these queries in one table
+
 
