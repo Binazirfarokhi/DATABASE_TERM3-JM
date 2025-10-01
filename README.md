@@ -238,4 +238,16 @@ What is Aliases? giving different names to columns and tables.
 What is Subqueries? differnt kinda doing queries in our database. it is like using a query and use the result of this query into another query.
 What is set operation ? using more than one query and putting the result of all these queries in one table
 
+================
+Week 5: Table Constraints and Joins
+Learning Outcomes
+Create tables with primary and foreign key constraints
+Enforce constraints on table column values
+Join data from different tables
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
+
+Complete this week's assignment;
+Review this week's discussion questions.
+List of Topics and Sub-Modules for Week 5: Table Constraints and Joins
 
