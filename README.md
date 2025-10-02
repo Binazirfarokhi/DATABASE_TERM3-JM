@@ -250,4 +250,5 @@ Complete the following tasks in order from top to bottom:
 Complete this week's assignment;
 Review this week's discussion questions.
 List of Topics and Sub-Modules for Week 5: Table Constraints and Joins
+- to create a database table the cli command is : sqlite3 -> the name of the file you want to create : sqlite3 pets.db
 
