@@ -252,3 +252,19 @@ Review this week's discussion questions.
 List of Topics and Sub-Modules for Week 5: Table Constraints and Joins
 - to create a database table the cli command is : sqlite3 -> the name of the file you want to create : sqlite3 pets.db
 
+_____________________________
+Week 6: Altering tables, Updating and Deleting, Views, and Triggers 
+Learning Outcomes
+Change table schemas by adding, renaming, and deleting columns
+Change constraints within tables
+Update and delete data
+Create fallbacks for violated foreign key constraints
+Abstract table data with views
+Use triggers to implement business logic in the database schema.
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
+
+Complete the tutorial Triggers
+Complete this week's assignment.
+_______________________
+
