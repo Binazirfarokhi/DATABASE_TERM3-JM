@@ -267,4 +267,16 @@ Complete the following tasks in order from top to bottom:
 Complete the tutorial Triggers
 Complete this week's assignment.
 _______________________
+Week 8: Loading Data, Transactions 
+Learning Outcomes
+Interact with an SQLite database with a Node.js program;
+Use prepared statements to run queries securely from a Node.js program;
+Load data in JSON format into a SQLite database;
+Use transactions for ACID operations;
+Set up a MongoDB database with MongoDB Atlas;
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
 
+Complete the video lesson Loading JSON Data into SQLite;
+Complete the tutorials on Transactions and MongoDB Atlas;
+-----------------------------
