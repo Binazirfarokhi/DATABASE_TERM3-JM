@@ -280,3 +280,16 @@ Complete the following tasks in order from top to bottom:
 Complete the video lesson Loading JSON Data into SQLite;
 Complete the tutorials on Transactions and MongoDB Atlas;
 -----------------------------
+
+Week 9: Indexes 
+Learning Outcomes
+Use indexes to speed up certain queries;
+Develop a strategy for using indexes to balance efficiency improvements and degradations.
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
+
+Complete the readings;
+Complete this week's assignment;
+Review this week's discussion questions.
+we had two books and two studetns should find some information in the book, the way they find it is interesting and important. searching on the book, is realted to index or search every single row. 
+-
