@@ -292,4 +292,27 @@ Complete the readings;
 Complete this week's assignment;
 Review this week's discussion questions.
 we had two books and two studetns should find some information in the book, the way they find it is interesting and important. searching on the book, is realted to index or search every single row. 
--
+------------------------------------
+.mode box = give us a table 
+.sqlite3 
+find data in movie.db = 
+select * FROM people WHERE name = ' Marcos Delieon ' ; 
+.timer on = how long takes to get the query 
+SELECT * FROM people WHERE id=209665; 
+biary search = middle of the search if the middle has the middle number - 
+we can improve the spped by looking for a name : create index : 
+CREATE INDEX person-name ON people ( name ) ; 
+it will help you make it faster to search 
+SELECT * FROM people WHERE name = 'marcos delion' ; so it is so fast this way. 
+. schema = 
+Index is a part of schema. 
+
+DROP INDEX person-name 
+Reasons to not use index : 
+ONly certain coulumn are searched.
+Take space in the database.
+with an index inseting data means we have to update the index, so there is overhead that comes with maintaing the index. onnly for inserting ? also delteing and also updating 
+SCAN people ; going through all the rows and trying to find all records related. 
+
+
+
