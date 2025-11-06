@@ -314,5 +314,19 @@ Take space in the database.
 with an index inseting data means we have to update the index, so there is overhead that comes with maintaing the index. onnly for inserting ? also delteing and also updating 
 SCAN people ; going through all the rows and trying to find all records related. 
 
+---------------------------------
+Week 10: MongoDB and NoSQL 
+Learning Outcomes
+Connect to a MongoDB database in a Node.js application
+Run queries to a MongoDB database:
+Create new documents;
+Nest documents;
+Find documents;
+To-dos For This Week
+Complete the following tasks in order from top to bottom:
 
+Read the slides;
+Complete this week's assignment;
+Review this week's discussion questions.
+------------------------------
 
